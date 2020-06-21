@@ -1,0 +1,252 @@
+.App {
+  margin-left: 9%;
+  margin-right: 10%;
+  position: relative;
+  
+}
+.AppAdd {
+  margin-left: 170px;
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.nav-link{
+  color: rgb(233, 106, 106);
+}
+.is-active {
+  font-weight: bold;
+  font-style: italic;
+  border-color: black;
+}
+
+.navbar .navbar-nav>li>a, .navbar .navbar-nav>li>a:hover {
+  color: #fff;
+}
+
+.inactive{
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 19%;
+  background-size: cover;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.styleAdd{
+  position: absolute ;
+  margin: auto;
+  width : 60%;
+  border: 3px solid grey;
+  padding: 0px 10px;
+  margin-left: 140px;
+}
+
+.testTilte {
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 50px;
+    letter-spacing: 1.6px;
+    word-spacing: -2.4px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;  
+}
+
+.testTiltee:after {
+	content: "Library App";
+	position: absolute; left: 10px; top: 5px;
+	color: rgba(255,0,0,0.5);   
+}
+
+.border{
+  border-bottom:1px solid #F1F1F1;
+  margin-bottom:10px;
+}
+.main-section{
+  -webkit-box-shadow: 3px 3px 21px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 21px -2px rgba(0,0,0,0.75);
+  box-shadow: 3px 3px 21px -2px rgba(0,0,0,0.75);
+  margin-bottom: 60px;
+  margin-top: 30px;
+  background-color: white;
+  border-style: double;
+
+} 
+
+.zoom:hover {
+  transform: scale(1.5s); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.image-section{
+  padding: 0px;
+}
+.image-section img{
+  width: 100%;
+  height:250px;
+  position: relative;
+}
+.user-image{
+  position: absolute;
+  margin-top:-50px;
+}
+.user-left-part{
+  margin: 0px;
+}
+.user-image img{
+  width:100px;
+  height:100px;
+}
+.user-profil-part{
+  padding-bottom:30px;
+  background-color:#FAFAFA;
+}
+.follow{    
+  margin-top:70px;   
+}
+.user-detail-row{
+  margin:0px; 
+}
+
+.user-detail-section2 p{
+  font-size:12px;
+  padding: 0px;
+  margin: 0px;
+}
+.user-detail-section2{
+  margin-top:10px;
+}
+.user-detail-section2 span{
+  color:#7CBBC3;
+  font-size: 20px;
+}
+.user-detail-section2 small{
+  font-size:12px;
+  color:#D3A86A;
+}
+.profile-right-section{
+  padding: 20px 10px 10px 15px;
+  background-color: #FFFFFF;  
+}
+.profile-right-section-row{
+  margin: 10px;
+}
+.profile-header-section1 h1{
+  font-size: 100px;
+  margin: 5px;
+}
+.profile-header-section1 h5{
+  color: #0062cc;
+}
+.req-btn{
+  height:30px;
+  font-size:12px;
+}
+.profile-tag{
+  padding: 10px;
+  border:1px solid #F6F6F6;
+}
+.profile-tag p{
+  font-size: 12px;
+  color:black;
+}
+.profile-tag i{
+  color:#ADADAD;
+  font-size: 20px;
+}
+.image-right-part{
+  background-color: #FCFCFC;
+  margin: 0px;
+  padding: 5px;
+}
+.img-main-rightPart{
+  background-color: #FCFCFC;
+  margin-top: auto;
+}
+.image-right-detail{
+  padding: 0px;
+}
+.image-right-detail p{
+  font-size: 12px;
+}
+.image-right-detail a:hover{
+  text-decoration: none;
+}
+.image-right img{
+  width: 100%;
+}
+.image-right-detail-section2{
+  margin: 0px;
+}
+.image-right-detail-section2 p{
+  color:#38ACDF;
+  margin:0px;
+}
+.image-right-detail-section2 span{
+  color:#7F7F7F;
+}
+
+
+.sidenav {
+  width: 7%;
+  height : 1000px;
+  position: absolute;
+  z-index: 1;
+  top: 16%;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
